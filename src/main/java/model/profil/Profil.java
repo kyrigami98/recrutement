@@ -1,3 +1,5 @@
+package model.profil;
+
 import java.util.UUID;
 
 public class Profil {
@@ -32,29 +34,6 @@ public class Profil {
 
     public String getPoste() {
         return poste;
-    }
-
-    public boolean isCandidat() {
-        if(this.poste.equals("candidat")){
-            return true;
-        }else{
-            return false;
-        }
-    }
-    public boolean isRecruteur() {
-        if(this.poste.equals("recruteur")){
-            return true;
-        }else{
-            return false;
-        }
-    }
-
-    public boolean canTest(Profil user) {
-        if(user.isCandidat() && this.isRecruteur() && this.experience > user.experience){
-            return true;
-        }else{
-            return false;
-        }
     }
 
 }
