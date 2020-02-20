@@ -6,11 +6,11 @@ import java.util.UUID;
 public class Entretien {
     private creneau creneau;
     private String statut;
-    private String recruteur;
-    private String candidat;
+    private Profil recruteur;
+    private Profil candidat;
     private UUID entretienID = UUID.randomUUID();
 
-    public Entretien(creneau creneau, String statut, String recruteur, String candidat) {
+    public Entretien(creneau creneau, String statut, Profil recruteur, Profil candidat) {
         this.creneau = creneau;
         this.statut = statut;
         this.recruteur = recruteur;
@@ -48,7 +48,7 @@ public class Entretien {
 
     public boolean annuler(String raison) {
         if (!raison.isEmpty()) {
-            if (this.statut == "confirmer" && this.creneau.getDate().compareTo(new Date()) <= 0) {
+            if ((this.statut == "confirmer") && (this.creneau.getDate().compareTo(new Date()) <= 0)) {
                 this.statut = "annuler";
                 return true;
             }

@@ -2,7 +2,7 @@ import java.time.LocalTime;
 import java.util.Date;
 import java.util.Objects;
 
-public class creneau {
+class creneau {
     private Date date;
     private LocalTime heureDebut;
     private LocalTime heureFin;
@@ -42,6 +42,14 @@ public class creneau {
 
     boolean verifHeureDebut() {
         if(this.heureDebut.compareTo(this.heureFin) < 0 ){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    boolean verifHeureFin() {
+        if(this.heureFin.compareTo(LocalTime.now()) > 0 ){
             return true;
         }else{
             return false;

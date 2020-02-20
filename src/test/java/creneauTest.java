@@ -9,10 +9,6 @@ class CreneauTest {
     creneau creneau1 = new creneau(new Date(), localTime, localTime.plusHours(2));
     creneau creneau2 = new creneau(new Date(), localTime, localTime.plusHours(2));
 
-    String raison = "trop compétent";
-    creneau creneau3 = new creneau(new Date(), localTime, localTime.plusHours(2));
-    Entretien entretien = new Entretien( creneau3, "confirmer", "Brian", "Kyriel");
-
     @org.junit.jupiter.api.Test
     void getDate() {
     }
@@ -24,22 +20,13 @@ class CreneauTest {
 
     @org.junit.jupiter.api.Test
     void verifHeureFin() {
-
+        assertTrue(creneau1.verifHeureFin());
     }
 
     @org.junit.jupiter.api.Test
     void equals() {
         assertTrue(creneau1.equals(creneau2));
-    }
 
-    @org.junit.jupiter.api.Test
-    void confirmer() {
-        assertTrue(entretien.confirmer());
-    }
-
-    @org.junit.jupiter.api.Test
-    void annuler() {
-        assertTrue(entretien.annuler(raison));
     }
 
 }
