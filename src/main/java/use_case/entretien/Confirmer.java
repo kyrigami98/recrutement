@@ -1,6 +1,6 @@
 package use_case.entretien;
 
-import model.entretien.Entretien;
+import model.Entretien;
 
 import java.util.Date;
 

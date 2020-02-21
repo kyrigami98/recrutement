@@ -1,4 +1,4 @@
-package model.profil;
+package model;
 
 import model.creneau.creneau;
 

@@ -1,22 +1,20 @@
-package model.entretien;
+package common.dto;
 
-import model.creneau.creneau;
-import model.profil.Profil;
-import model.salle.Salle;
+import model.Profil;
+import model.Salle;
 
-import java.util.Date;
 import java.util.Objects;
 import java.util.UUID;
 
-public class Entretien {
-    private model.creneau.creneau creneau;
+public class EntretienDto {
+    private creneauDto creneau;
     private Salle salle;
     private String statut;
     private Profil recruteur;
     private Profil candidat;
     private UUID entretienID = UUID.randomUUID();
 
-    public Entretien(creneau creneau, String statut, Profil recruteur, Profil candidat, Salle salle) {
+    public EntretienDto(creneauDto creneau, String statut, Profil recruteur, Profil candidat, Salle salle) {
         this.creneau = creneau;
         this.statut = statut;
         this.recruteur = recruteur;
@@ -25,7 +23,7 @@ public class Entretien {
         this.salle = salle;
     }
 
-    public creneau getCreneau() {
+    public creneauDto getCreneau() {
         return creneau;
     }
 
@@ -53,7 +51,7 @@ public class Entretien {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Entretien entretien = (Entretien) o;
+        EntretienDto entretien = (EntretienDto) o;
         return entretienID.equals(entretien.entretienID);
     }
 

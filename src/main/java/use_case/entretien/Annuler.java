@@ -1,14 +1,15 @@
 package use_case.entretien;
 
-import model.entretien.Entretien;
+import common.dto.EntretienDto;
+import model.Entretien;
 
 import java.util.Date;
 
 public class Annuler{
-    public boolean annuler(String raison) {
+    public boolean annuler(Entretien entretien, String raison) {
         if (!raison.isEmpty()) {
-            if ((this.statut == "confirmer") && (this.creneau.getDate().compareTo(new Date()) <= 0)) {
-                this.statut = "annuler";
+            if ((entretien.getStatut() == "confirmer") && (entretien.getCreneau().getDate().compareTo(new Date()) <= 0)) {
+                entretien.setStatut("annuler");
                 return true;
             }
             return false;

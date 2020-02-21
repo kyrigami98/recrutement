@@ -1,6 +1,6 @@
 package use_case.entretiens;
-import model.entretien.Entretien;
-import model.entretiens.entretiens;
+import model.Entretien;
+import model.entretiens;
 
 import java.util.List;
 

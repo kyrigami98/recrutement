@@ -1,9 +1,8 @@
 package use_case.entretiens;
 
-import model.entretien.Entretien;
+import model.Entretien;
 
 import java.util.List;
-import java.util.concurrent.atomic.AtomicBoolean;
 
 public class chevaucher {
 

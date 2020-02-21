@@ -1,9 +1,9 @@
 package use_case.creneau;
 
-import model.creneau.creneau;
+import common.dto.creneauDto;
 
 public class verifierHeureDebut {
-    boolean verifHeureDebut(creneau creneau) {
+    boolean verifHeureDebut(creneauDto creneau) {
         if(creneau.getHeureDebut().compareTo(creneau.getHeureFin()) < 0 ){
             return true;
         }else{

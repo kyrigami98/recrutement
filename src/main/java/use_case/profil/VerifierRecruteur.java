@@ -1,6 +1,6 @@
 package use_case.profil;
 
-import model.profil.Profil;
+import model.Profil;
 
 public class VerifierRecruteur {
     public boolean isRecruteur(Profil profil) {

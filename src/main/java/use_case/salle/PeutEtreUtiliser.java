@@ -1,6 +1,6 @@
 package use_case.salle;
 
-import model.salle.Salle;
+import model.Salle;
 
 public class PeutEtreUtiliser {
     public boolean isDisponible(Salle salle) {

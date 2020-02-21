@@ -1,6 +1,6 @@
 package use_case.profil;
 
-import model.profil.Profil;
+import model.Profil;
 
 public class PeuxPasserEntretien {
     public boolean canTest(Profil user) {

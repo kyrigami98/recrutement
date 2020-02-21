@@ -1,4 +1,4 @@
-package model.salle;
+package model;
 
 public class Salle {
     private String nom;

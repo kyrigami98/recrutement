@@ -4,7 +4,7 @@ import java.time.LocalTime;
 import java.util.Date;
 import java.util.Objects;
 
-public class creneau {
+class creneau {
     private Date date;
     private LocalTime heureDebut;
     private LocalTime heureFin;
