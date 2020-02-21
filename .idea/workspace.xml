@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f32e74c4-77bb-451f-8445-fdafeb7bfb23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/use_case/entretien/AnnulerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/use_case/entretien/ConfirmerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/use_case/entretien/verifierSalleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/use_case/entretiens/ajouterEntretienTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/use_case/entretiens/chevaucherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/use_case/entretiens/creerEntretienTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/use_case/entretiens/verifierExistanceEntretienTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/use_case/profil/VerifierCandidatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/use_case/profil/VerifierRecruteurTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Profil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Profil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/dto/creneauDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/dto/creneauDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/use_case/entretien/Annuler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/use_case/entretien/Annuler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/use_case/entretien/Confirmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/use_case/entretien/Confirmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/use_case/entretien/verifierSalle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/use_case/entretien/verifierSalle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/use_case/salle/PeutEtreUtiliserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/use_case/salle/PeutEtreUtiliserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Profil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Profil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/use_case/entretien/Annuler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/use_case/entretien/Annuler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/use_case/entretien/Confirmer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/use_case/entretien/Confirmer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/use_case/entretien/verifierSalle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/use_case/entretien/verifierSalle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/use_case/entretiens/creerEntretien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/use_case/entretiens/creerEntretien.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,10 +31,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/use_case/profil/VerifierCandidat.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretiens/ajouterEntretien.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="102">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,19 +43,92 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/use_case/entretien/ConfirmerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/use_case/entretiens/ajouterEntretienTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="68">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretiens/verifierExistanceEntretien.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/use_case/entretiens/verifierExistanceEntretienTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/use_case/profil/PeuxPasserEntretien.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/use_case/profil/VerifierCandidat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/use_case/profil/VerifierCandidatTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/use_case/profil/VerifierRecruteur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/use_case/profil/VerifierRecruteurTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/use_case/profil/VerifierRecruteur.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/use_case/salle/PeutEtreUtiliser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +144,17 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>entretiensDto</find>
+      <find>ProfilDto</find>
+      <find>SalleDto</find>
+      <find>creneauDto</find>
+      <find>EntretienDto</find>
+    </findStrings>
     <dirStrings>
       <dir>C:\Users\brbourdon\Documents\recrutement\src\main\java\model\entretien</dir>
+      <dir>C:\Users\brbourdon\Documents\recrutement\src\main\java</dir>
+      <dir>C:\Users\brbourdon\Documents\recrutement\src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -84,16 +163,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Entretien.java" />
-        <option value="$PROJECT_DIR$/src/test/java/creneauTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/creneau.java" />
         <option value="$PROJECT_DIR$/src/test/java/ProfilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Profil.java" />
         <option value="$PROJECT_DIR$/src/test/java/EntretienTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/model/profil/ProfilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/entretien/creneau.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/common/dto/creneauDto.java" />
         <option value="$PROJECT_DIR$/src/test/java/model/entretien/creneauTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/model/entretien/EntretienTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/use_case/profil/VerifierRecruteur.java" />
@@ -105,7 +180,6 @@
         <option value="$PROJECT_DIR$/src/main/java/use_case/entretien/creerEntretien.java" />
         <option value="$PROJECT_DIR$/src/main/java/use_case/entretiens/verifierExistanceEntretien.java" />
         <option value="$PROJECT_DIR$/src/main/java/use_case/entretiens/chevaucher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/use_case/entretiens/creerEntretien.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/dto/Entretien.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/dto/entretiensDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/dto/SalleDto.java" />
@@ -127,11 +201,19 @@
         <option value="$PROJECT_DIR$/src/test/java/use_case/salle/PeutEtreUtiliserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Profil.java" />
         <option value="$PROJECT_DIR$/src/test/java/use_case/entretien/AnnulerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/use_case/entretien/Annuler.java" />
         <option value="$PROJECT_DIR$/src/main/java/use_case/entretien/Confirmer.java" />
         <option value="$PROJECT_DIR$/src/test/java/use_case/entretien/verifierSalleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/use_case/entretien/verifierSalle.java" />
         <option value="$PROJECT_DIR$/src/test/java/use_case/entretien/ConfirmerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/use_case/entretien/Annuler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/dto/creneauDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/use_case/entretiens/creerEntretien.java" />
+        <option value="$PROJECT_DIR$/src/test/java/use_case/entretiens/creerEntretienTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/use_case/entretiens/chevaucherTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/use_case/entretiens/ajouterEntretienTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/use_case/entretiens/verifierExistanceEntretienTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/use_case/profil/VerifierCandidatTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/use_case/profil/VerifierRecruteurTest.java" />
       </list>
     </option>
   </component>
@@ -192,33 +274,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recrutement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recrutement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="use_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recrutement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recrutement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="use_case" type="462c0819:PsiDirectoryNode" />
-              <item name="creneau" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recrutement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recrutement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="use_case" type="462c0819:PsiDirectoryNode" />
-              <item name="entretien" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recrutement" type="b2602c69:ProjectViewProjectNode" />
@@ -242,6 +298,15 @@
               <item name="recrutement" type="b2602c69:ProjectViewProjectNode" />
               <item name="recrutement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="use_case" type="462c0819:PsiDirectoryNode" />
+              <item name="salle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recrutement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recrutement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,6 +349,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="use_case" type="462c0819:PsiDirectoryNode" />
+              <item name="entretiens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recrutement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recrutement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="use_case" type="462c0819:PsiDirectoryNode" />
               <item name="salle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -297,7 +371,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582299858803" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582301297081" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -305,11 +379,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="use_case.profil" />
+      <recent name="use_case.entretiens" />
       <recent name="use_case.entretien" />
       <recent name="model" />
       <recent name="use_case.creneau" />
-      <recent name="use_case.salle" />
-      <recent name="model.creneau" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="model" />
@@ -334,7 +408,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConfirmerTest">
+  <component name="RunManager" selected="JUnit.use_case in recrutement">
     <configuration name="ConfirmerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="recrutement" />
       <extension name="coverage">
@@ -411,8 +485,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConfirmerTest" />
         <item itemvalue="JUnit.use_case in recrutement" />
+        <item itemvalue="JUnit.ConfirmerTest" />
         <item itemvalue="JUnit.verifierHeureDebutTest" />
         <item itemvalue="JUnit.PeutEtreUtiliserTest.isDisponible" />
         <item itemvalue="JUnit.use_case.creneau in recrutement" />
@@ -444,12 +518,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProfilTest - 2020.02.20 at 13h 27m 16s.xml">
-      <configuration name="ProfilTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProfilTest - 2020.02.20 at 13h 29m 07s.xml">
-      <configuration name="ProfilTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CreneauTest - 2020.02.20 at 14h 21m 07s.xml">
       <configuration name="CreneauTest" configurationId="JUnit" />
     </history-entry>
@@ -473,6 +541,12 @@
     </history-entry>
     <history-entry file="ConfirmerTest - 2020.02.21 at 16h 38m 59s.xml">
       <configuration name="ConfirmerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="use_case_in_recrutement - 2020.02.21 at 17h 00m 49s.xml">
+      <configuration name="use_case in recrutement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="use_case_in_recrutement - 2020.02.21 at 17h 06m 28s.xml">
+      <configuration name="use_case in recrutement" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -536,99 +610,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretiens/verifierExistanceEntretien.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretiens/chevaucher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/dto/Entretien.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/dto/entretiensDto.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/dto/SalleDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/entretiens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/dto/EntretienDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Entretien.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/dto/ProfilDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/salle/PeutEtreUtiliser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretiens/ajouterEntretien.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretiens/creerEntretien.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -646,53 +632,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/model/EntretienTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/model/ProfilTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/model/SalleTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/dto/creneauDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/creneau/verifierHeureFinTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/salle/PeutEtreUtiliserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/creneau/verifierHeureDebutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretien/Annuler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Profil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -700,13 +639,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Salle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -733,19 +665,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/entretien/AnnulerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretien/Confirmer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretien/verifierSalle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/dto/EntretienDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/dto/entretiensDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/dto/ProfilDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/dto/SalleDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/creneau/verifierHeureFinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/creneau/verifierHeureDebutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/entretien/AnnulerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretien/Annuler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/entretien/ConfirmerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/dto/creneauDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/salle/PeutEtreUtiliserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -757,10 +781,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretien/verifierSalle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Salle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="119">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/entretiens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretiens/creerEntretien.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/entretiens/creerEntretienTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretiens/chevaucher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/entretiens/chevaucherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretiens/ajouterEntretien.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/entretiens/ajouterEntretienTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/entretiens/verifierExistanceEntretien.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/entretiens/verifierExistanceEntretienTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -773,25 +878,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/use_case/profil/VerifierCandidat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/entretien/ConfirmerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/profil/VerifierCandidatTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/use_case/profil/VerifierRecruteur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/use_case/profil/VerifierRecruteurTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/salle/PeutEtreUtiliser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

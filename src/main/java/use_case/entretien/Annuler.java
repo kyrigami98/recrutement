@@ -1,6 +1,5 @@
 package use_case.entretien;
 
-import common.dto.EntretienDto;
 import model.Entretien;
 
 import java.util.Date;
