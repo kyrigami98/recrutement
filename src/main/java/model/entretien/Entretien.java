@@ -1,5 +1,6 @@
 package model.entretien;
 
+import model.creneau.creneau;
 import model.profil.Profil;
 import model.salle.Salle;
 
@@ -8,7 +9,7 @@ import java.util.Objects;
 import java.util.UUID;
 
 public class Entretien {
-    private creneau creneau;
+    private model.creneau.creneau creneau;
     private Salle salle;
     private String statut;
     private Profil recruteur;
@@ -26,6 +27,26 @@ public class Entretien {
 
     public creneau getCreneau() {
         return creneau;
+    }
+
+    public Salle getSalle() {
+        return salle;
+    }
+
+    public void setStatut(String statut) {
+        this.statut = statut;
+    }
+
+    public String getStatut() {
+        return statut;
+    }
+
+    public Profil getRecruteur() {
+        return recruteur;
+    }
+
+    public Profil getCandidat() {
+        return candidat;
     }
 
     @Override

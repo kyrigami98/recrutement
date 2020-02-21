@@ -1,5 +1,7 @@
 package model.profil;
 
+import model.creneau.creneau;
+
 import java.util.UUID;
 
 public class Profil {
@@ -9,12 +11,14 @@ public class Profil {
     private String nom;
     private String prenom;
     private String poste;
+    private creneau disponibilite;
 
-    public Profil(double experience, String nom, String prenom, String poste) {
+    public Profil(double experience, String nom, String prenom, String poste,creneau disponibilite) {
         this.experience = experience;
         this.nom = nom;
         this.prenom = prenom;
         this.poste = poste;
+        this.disponibilite = disponibilite;
     }
 
     public UUID getProfilID() {
@@ -33,6 +37,10 @@ public class Profil {
     }
 
     public String getPoste() {
+        return poste;
+    }
+
+    public String getDisponibilite() {
         return poste;
     }
 

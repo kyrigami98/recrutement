@@ -1,11 +1,14 @@
 package use_case.entretien;
 
+import model.entretien.Entretien;
+
 import java.util.Date;
 
 public class Confirmer {
-    public boolean confirmer() {
-        if(this.statut !=  "annuler" && this.statut.equals("planifier") && this.creneau.getDate().compareTo(new Date()) >=0) {
-            this.statut = "confirmer";
+    public boolean confirmer(Entretien entretien) {
+        if(entretien.getStatut() !=  "annuler" && entretien.getStatut().equals("planifier") &&
+                entretien.getCreneau().getDate().compareTo(new Date()) >=0) {
+            entretien.setStatut("confirmer");
             return true;
         }
         else
