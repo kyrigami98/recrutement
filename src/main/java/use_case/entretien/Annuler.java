@@ -6,7 +6,7 @@ import model.Entretien;
 import java.util.Date;
 
 public class Annuler{
-    public boolean annuler(Entretien entretien, String raison) {
+    static boolean annuler(Entretien entretien, String raison) {
         if (!raison.isEmpty()) {
             if ((entretien.getStatut() == "confirmer") && (entretien.getCreneau().getDate().compareTo(new Date()) <= 0)) {
                 entretien.setStatut("annuler");
