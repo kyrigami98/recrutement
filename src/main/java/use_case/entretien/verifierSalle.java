@@ -1,7 +1,9 @@
 package use_case.entretien;
 
+import model.Salle;
+
 public class verifierSalle {
-    private boolean verifSalle()
+    static boolean verifSalle(Salle salle)
     {
         if(salle.getEtat() != "pleine") return true;
         else return false;
