@@ -1,7 +1,5 @@
 package common.dto;
 
-import model.creneau.creneau;
-
 import java.util.UUID;
 
 public class ProfilDto {
@@ -11,9 +9,9 @@ public class ProfilDto {
     private String nom;
     private String prenom;
     private String poste;
-    private creneau disponibilite;
+    private creneauDto disponibilite;
 
-    public ProfilDto(double experience, String nom, String prenom, String poste, creneau disponibilite) {
+    public ProfilDto(double experience, String nom, String prenom, String poste, creneauDto disponibilite) {
         this.experience = experience;
         this.nom = nom;
         this.prenom = prenom;

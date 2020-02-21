@@ -1,7 +1,5 @@
 package model;
 
-import model.creneau.creneau;
-
 import java.util.UUID;
 
 public class Profil {

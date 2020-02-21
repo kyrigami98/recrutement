@@ -1,4 +1,4 @@
-package model.salle;
+package model;
 
 import org.junit.jupiter.api.Test;
 

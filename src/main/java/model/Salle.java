@@ -3,13 +3,11 @@ package model;
 public class Salle {
     private String nom;
     private int capacite;
-    private int id;
     private String etat;
 
-    public Salle(String nom, int capacite, int id, String etat) {
+    public Salle(String nom, int capacite, String etat) {
         this.nom = nom;
         this.capacite = capacite;
-        this.id = id;
         this.etat = etat;
     }
 
@@ -23,9 +21,6 @@ public class Salle {
 
     public int getCapacite() {
         return capacite;
-    }
-    public int getId() {
-        return id;
     }
 
 }
