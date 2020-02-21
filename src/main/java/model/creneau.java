@@ -1,4 +1,4 @@
-package model.creneau;
+package model;
 
 import java.time.LocalTime;
 import java.util.Date;

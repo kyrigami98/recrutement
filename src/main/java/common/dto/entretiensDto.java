@@ -1,16 +1,15 @@
-package model.entretiens;
+package common.dto;
 
-import model.entretien.Entretien;
+import model.Entretien;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicBoolean;
 
-public class entretiens {
+public class entretiensDto {
 
     List<Entretien> listEntretiens = new ArrayList<>();
 
-    public entretiens(List<Entretien> listEntretien) {
+    public entretiensDto(List<Entretien> listEntretien) {
         this.listEntretiens = listEntretien;
     }
 
