@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.Objects;
 import java.util.UUID;
 
-public class Entretien {
+public class Entretien implements {
     private creneau creneau;
     private Salle salle;
     private String statut;

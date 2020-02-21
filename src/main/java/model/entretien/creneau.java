@@ -1,8 +1,10 @@
+package model.entretien;
+
 import java.time.LocalTime;
 import java.util.Date;
 import java.util.Objects;
 
-class creneau {
+ public class creneau {
     private Date date;
     private LocalTime heureDebut;
     private LocalTime heureFin;
@@ -40,20 +42,6 @@ class creneau {
         return heureFin;
     }
 
-    boolean verifHeureDebut() {
-        if(this.heureDebut.compareTo(this.heureFin) < 0 ){
-            return true;
-        }else{
-            return false;
-        }
-    }
 
-    boolean verifHeureFin() {
-        if(this.heureFin.compareTo(LocalTime.now()) > 0 ){
-            return true;
-        }else{
-            return false;
-        }
-    }
 
 }
